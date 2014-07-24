@@ -25,7 +25,7 @@
             <li class="{{ message | mineClass }}" ng-repeat="message in activeMessages">
                 <div class="messages">
                 	<p>
-                    	<span ng-bind-html="message.text"></span> <span ng-show="message.date">-</span> <time class="right">{{ message.date | timeFormat }}</time>
+                    	<span ng-bind-html="message.text"></span> <time class="right">{{ message.date | timeFormat }}</time>
                     </p>
                 </div>
             </li>
